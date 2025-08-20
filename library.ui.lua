@@ -1,3 +1,8 @@
+--[[
+   Modified by StrataV5 (Strata)
+   Official Copyright Issue Act is enforced
+]]--
+
 local ui_options = {
 	main_color = Color3.fromRGB(41, 74, 122),
 	min_size = Vector2.new(400, 300),
@@ -142,7 +147,7 @@ Toggle.Position = UDim2.new(0, 5, 0, -2)
 Toggle.Rotation = 90
 Toggle.Size = UDim2.new(0, 20, 0, 20)
 Toggle.ZIndex = 2
-Toggle.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=4731371541"
+Toggle.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=16775061859"
 
 Base.Name = "Base"
 Base.Parent = Bar
@@ -183,7 +188,7 @@ Title.Font = Enum.Font.GothamBold
 Title.Text = "Gamer Time"
 Title.TextColor3 = Color3.new(1, 1, 1)
 Title.TextSize = 14
-Title.TextXAlignment = Enum.TextXAlignment.Left
+Title.TextXAlignment = Enum.TextXAlignment.Right
 
 TabSelection.Name = "TabSelection"
 TabSelection.Parent = Window
